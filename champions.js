@@ -191,7 +191,7 @@ const champions = [
   description: "Local hospitality venue supporting autism-friendly access.",
   lat: 53.4141,
   lng: -6.8319,
-  image: "images/gregorys.png"
+  image: "images/gregory.png"
 },
 
 {
