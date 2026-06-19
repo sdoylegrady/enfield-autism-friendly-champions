@@ -118,7 +118,7 @@ const champions = [
     lng: -6.8235,
     image: "images/lidl.png"
   },
-
+https://enfield-autism-friendly-champions.vercel.app/champions.js
   {
     name: "Na Fianna CLG",
     category: "GAA Club",
