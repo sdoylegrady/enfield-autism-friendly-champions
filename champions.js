@@ -9,7 +9,8 @@ const champions = [
     lat: 53.414094,
     lng: -6.8329,
     website: "https://ladym.ie/",
-    image: "images/lady-m.jpg"
+    image: "images/lady-m.png"
+}
   },
   {
     name: "Murtagh Bros",
