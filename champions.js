@@ -1,118 +1,13 @@
 const champions = [
   {
-    name: "Lady M Boutique",
-    category: "Retail",
-    status: "Champion",
-    address: "Main Street, Enfield, Co. Meath",
-    supports: ["Welcoming environment", "Clear communication"],
-    description: "Local boutique supporting autism-friendly access.",
-    lat: 53.4142,
-    lng: -6.8326,
-    image: "images/lady-m.png"
-  }
-];
-  {
-    name: "Murtagh Bros",
-    category: "Business",
-    status: "Champion",
-    address: "Main Street, Enfield, Co. Meath, A83 CX39",
-    supports: ["Welcoming environment", "Clear communication"],
-    description: "Local auctioneers and estate agents supporting the Enfield Champions initiative.",
-    lat: 53.41435,
-    lng: -6.8325,
-    website: "https://murtaghbros.ie/",
-    image: "images/murtagh-bros.jpg"
-  },
-  {
-    name: "Blast Music Academy",
-    category: "Music / education",
-    status: "Champion",
-    address: "Unit 2, The Market Yard, Main Street, Enfield, Co. Meath, A83 VC57",
-    supports: ["Predictable routines", "Creative participation", "Inclusive learning"],
-    description: "Music academy supporting inclusive access to music lessons and creative learning.",
-    lat: 53.4140,
-    lng: -6.8331,
-    website: "https://www.blastmusicacademy.com/",
-    image: "images/lady-m.jpg",
-  },
-  {
-    name: "Nomad Coffee Bar",
+    name: "Nomad",
     category: "Café",
     status: "Champion",
-    address: "Main Street, Enfield, Co. Meath, A83 NY70",
-    supports: ["Welcoming community space", "Accessible information"],
-    description: "Local coffee shop supporting autism-friendly access through clear information and a welcoming environment.",
+    address: "Main Street, Enfield, Co. Meath",
+    supports: ["Welcoming space"],
+    description: "Test champion.",
     lat: 53.4142,
     lng: -6.8326,
-    website: "",
     image: "images/nomad.jpg"
-  },
-  {
-    name: "Hannon's SuperValu Enfield",
-    category: "Supermarket",
-    status: "Champion",
-    address: "3/4 Rivervillage, Enfield, Co. Meath, A83 N289",
-    supports: ["Accessible shopping", "Clear communication", "Community support"],
-    description: "Local supermarket supporting autism-friendly and inclusive shopping experiences.",
-    lat: 53.41421,
-    lng: -6.82766,
-    website: "supervalu.ie",
-    image: "images/supervalu.jpg"
-  },
-  {
-    name: "Lidl Enfield",
-    category: "Supermarket",
-    status: "Champion",
-    address: "Dublin Road, Enfield, Co. Meath, A83 Y004",
-    supports: ["Accessible shopping", "Clear layout"],
-    description: "Supermarket supporting accessible and inclusive shopping.",
-    lat: 53.4150,
-    lng: -6.8235,
-    website: "https://www.lidl.ie/"
-  },
-  {
-    name: "Enfield Celtic FC",
-    category: "Sport",
-    status: "Champion",
-    address: "Dublin Road, Johnstown, Enfield, Co. Meath",
-    supports: ["Inclusive sport", "Named contact person", "Football for all"],
-    description: "Local football club supporting inclusive participation in sport.",
-    lat: 53.4132,
-    lng: -6.8249,
-    website: ""
-  },
-  {
-    name: "Na Fianna CLG",
-    category: "Sport",
-    status: "Champion",
-    address: "Na Fianna, Enfield Pitch, Enfield, Co. Meath, A83 HF25",
-    supports: ["Inclusive sport", "Community participation"],
-    description: "Local GAA club supporting inclusive access to sport and community participation.",
-    lat: 53.4105,
-    lng: -6.8218,
-    website: "https://nafianna.ie/"
-  },
-  {
-    name: "The Gregory Inn",
-    category: "Hospitality",
-    status: "Champion",
-    address: "Main Street, Enfield, Co. Meath, A83 CF60",
-    supports: ["Welcoming environment", "Clear communication"],
-    description: "Local pub and restaurant supporting inclusive and welcoming community access.",
-    lat: 53.4141,
-    lng: -6.8319,
-    website: "https://thegregory.ie/"
-  },
-  {
-    name: "Enfield Credit Union",
-    category: "Financial service",
-    status: "Champion",
-    address: "Main Street, Enfield, Co. Meath, A83 RH22",
-    supports: ["Accessible information", "Clear communication", "Community support"],
-    description: "Local credit union supporting accessible financial services and community inclusion.",
-    lat: 53.414305,
-    lng: -6.832272,
-    website: "https://www.enfieldcu.ie/",
-     image: "images/enfield-cu.jpg"
   }
 ];
