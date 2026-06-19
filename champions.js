@@ -176,7 +176,7 @@ const champions = [
   description: "Community opticians supporting accessible and inclusive services.",
   lat: 53.4144,
   lng: -6.8324,
-  image: "images/enfield opticians.png"
+  image: "images/enfield opticians.jpg"
 },
 
 {
