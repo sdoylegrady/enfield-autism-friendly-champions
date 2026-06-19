@@ -14,6 +14,11 @@ champions.forEach((champion) => {
   cards.appendChild(card);
 });
 
+const validChampions = champions.filter((champion) =>
+  typeof champion.lat === "number" &&
+  typeof champion.lng === "number"
+);
+
 const map = L.map("map").setView([53.4142, -6.8326], 15);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -21,7 +26,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors"
 }).addTo(map);
 
-champions.forEach((champion) => {
+validChampions.forEach((champion) => {
   L.marker([champion.lat, champion.lng])
     .addTo(map)
     .bindPopup(`<strong>${champion.name}</strong><br>${champion.status}`);
