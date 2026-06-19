@@ -1,8 +1,19 @@
-const cards = document.getElementById("cards");
+cconst cards = document.getElementById("cards");
+
+function makeId(name) {
+  return name
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
 champions.forEach((champion) => {
+  const cardId = makeId(champion.name);
+
   const card = document.createElement("article");
   card.className = "card";
+  card.id = cardId;
 
   card.innerHTML = `
     ${champion.image ? `<img class="champion-image" src="${champion.image}" alt="${champion.name}">` : ""}
@@ -26,11 +37,15 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 champions.forEach((champion) => {
+  const cardId = makeId(champion.name);
+
   L.marker([champion.lat, champion.lng])
     .addTo(map)
     .bindPopup(`
       <strong>${champion.name}</strong><br>
       ${champion.category}<br>
-      ${champion.status}
+      <a href="#${cardId}">View champion details</a>
+    `);
+});
     `);
 });
