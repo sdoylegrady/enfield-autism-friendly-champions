@@ -17,8 +17,8 @@ const champions = [
     address: "Main Street, Enfield, Co. Meath",
     supports: ["Welcoming environment", "Clear communication"],
     description: "Local boutique supporting autism-friendly access.",
-    lat: 53.4141,
-    lng: -6.8329,
+   lat: 53.4144,
+   lng: -6.8330,
     image: "images/lady-m.png"
   },
   {
@@ -28,8 +28,8 @@ const champions = [
     address: "Main Street, Enfield, Co. Meath",
     supports: ["Welcoming environment", "Clear communication"],
     description: "Local business supporting the Enfield Champions initiative.",
-    lat: 53.4143,
-    lng: -6.8325,
+   lat: 53.4146,
+  lng: -6.8322,
     image: "images/murtagh-bros.png"
   }
 ];
