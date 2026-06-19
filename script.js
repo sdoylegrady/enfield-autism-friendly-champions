@@ -1,4 +1,4 @@
-cconst cards = document.getElementById("cards");
+const cards = document.getElementById("cards");
 
 function makeId(name) {
   return name
@@ -45,7 +45,5 @@ champions.forEach((champion) => {
       <strong>${champion.name}</strong><br>
       ${champion.category}<br>
       <a href="#${cardId}">View champion details</a>
-    `);
-});
     `);
 });
