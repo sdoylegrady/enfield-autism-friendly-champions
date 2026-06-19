@@ -25,3 +25,7 @@ champions.forEach((champion) => {
     .addTo(map)
     .bindPopup(`<strong>${champion.name}</strong><br>${champion.status}`);
 });
+
+setTimeout(() => {
+  map.invalidateSize();
+}, 500);
