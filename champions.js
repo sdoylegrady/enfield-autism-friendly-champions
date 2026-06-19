@@ -8,7 +8,7 @@ const champions = [
     description: "Local boutique supporting autism-friendly access and inclusion.",
     lat: 53.414094,
     lng: -6.8329,
-    website: "https://ladym.ie/"
+    website: "https://ladym.ie/",
     image: "images/lady-m.jpg"
   },
   {
@@ -20,7 +20,7 @@ const champions = [
     description: "Local auctioneers and estate agents supporting the Enfield Champions initiative.",
     lat: 53.41435,
     lng: -6.8325,
-    website: "https://murtaghbros.ie/"
+    website: "https://murtaghbros.ie/",
     image: "images/murtagh-bros.jpg"
   },
   {
@@ -43,7 +43,7 @@ const champions = [
     description: "Local coffee shop supporting autism-friendly access through clear information and a welcoming environment.",
     lat: 53.4142,
     lng: -6.8326,
-    website: ""
+    website: "",
     image: "images/nomad.jpg"
   },
   {
@@ -55,7 +55,7 @@ const champions = [
     description: "Local supermarket supporting autism-friendly and inclusive shopping experiences.",
     lat: 53.41421,
     lng: -6.82766,
-    website: "supervalu.ie"
+    website: "supervalu.ie",
     image: "images/supervalu.jpg"
   },
   {
