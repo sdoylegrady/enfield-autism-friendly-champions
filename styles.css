@@ -213,3 +213,9 @@ card.innerHTML = `
   border-radius: 12px;
   margin-bottom: 12px;
 }
+#map {
+  height: 480px;
+  border-radius: 22px;
+  border: 1px solid #c8dccf;
+  overflow: hidden;
+}
