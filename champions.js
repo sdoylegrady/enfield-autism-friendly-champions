@@ -165,21 +165,6 @@ const champions = [
 },
 
 {
-  name: "Enfield Opticians",
-  category: "Healthcare",
-  status: "Champion",
-  address: "Main Street, Enfield, Co. Meath",
-  supports: [
-    "Clear communication",
-    "Accessible appointments"
-  ],
-  description: "Community opticians supporting accessible and inclusive services.",
-  lat: 53.4144,
-  lng: -6.8324,
-  image: "images/opticians.jpg"
-},
-
-{
   name: "The Gregory Inn",
   category: "Hospitality",
   status: "Champion",
