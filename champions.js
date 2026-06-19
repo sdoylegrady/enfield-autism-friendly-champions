@@ -148,4 +148,64 @@ const champions = [
     lng: -6.8249,
     image: "images/enfieldceltic.png"
   }
+,
+{
+  name: "Blossoms",
+  category: "Retail",
+  status: "Champion",
+  address: "Main Street, Enfield, Co. Meath",
+  supports: [
+    "Welcoming environment",
+    "Accessible communication"
+  ],
+  description: "Local business supporting autism-friendly and inclusive access.",
+  lat: 53.4143,
+  lng: -6.8328,
+  image: "images/blossoms.png"
+},
+
+{
+  name: "Enfield Opticians",
+  category: "Healthcare",
+  status: "Champion",
+  address: "Main Street, Enfield, Co. Meath",
+  supports: [
+    "Clear communication",
+    "Accessible appointments"
+  ],
+  description: "Community opticians supporting accessible and inclusive services.",
+  lat: 53.4144,
+  lng: -6.8324,
+  image: "images/enfield-opticians.png"
+},
+
+{
+  name: "The Gregory Inn",
+  category: "Hospitality",
+  status: "Champion",
+  address: "Main Street, Enfield, Co. Meath",
+  supports: [
+    "Welcoming environment",
+    "Community inclusion"
+  ],
+  description: "Local hospitality venue supporting autism-friendly access.",
+  lat: 53.4141,
+  lng: -6.8319,
+  image: "images/gregorys.png"
+},
+
+{
+  name: "An Garda Síochána - Enfield",
+  category: "Public Service",
+  status: "Champion",
+  address: "Enfield, Co. Meath",
+  supports: [
+    "Community engagement",
+    "Inclusive public service"
+  ],
+  description: "Supporting accessibility, inclusion and community participation.",
+  lat: 53.4146,
+  lng: -6.8321,
+  image: "images/gardai.png"
+}
 ];
