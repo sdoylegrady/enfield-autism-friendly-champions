@@ -32,7 +32,8 @@ const champions = [
     description: "Music academy supporting inclusive access to music lessons and creative learning.",
     lat: 53.4140,
     lng: -6.8331,
-    website: "https://www.blastmusicacademy.com/"
+    website: "https://www.blastmusicacademy.com/",
+    image: "images/lady-m.jpg",
   },
   {
     name: "Nomad Coffee Bar",
