@@ -112,6 +112,7 @@ const champions = [
     description: "Local credit union supporting accessible financial services and community inclusion.",
     lat: 53.414305,
     lng: -6.832272,
-    website: "https://www.enfieldcu.ie/"
+    website: "https://www.enfieldcu.ie/",
+     image: "images/enfield-cu.jpg"
   }
 ];
