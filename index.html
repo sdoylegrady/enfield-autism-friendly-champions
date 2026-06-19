@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Enfield Autism-Friendly Champions</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
   <header class="hero">
@@ -15,10 +16,6 @@
         A community map of local businesses, services, schools, clubs and public spaces
         working towards more autism-friendly and inclusive practice.
       </p>
-      <div class="hero-actions">
-        <a href="#map" class="button primary">View the map</a>
-        <a href="#join" class="button secondary">Become a champion</a>
-      </div>
     </div>
   </header>
 
@@ -30,57 +27,22 @@
     </section>
 
     <section class="section">
-      <div class="section-heading">
-        <h2>Champion map</h2>
-        <p>Filter by type or status, then select a pin or card to learn more.</p>
-      </div>
-
-      <div class="filters">
-        <button class="filter active" data-filter="all">All</button>
-        <button class="filter" data-filter="Champion">Champion</button>
-        <button class="filter" data-filter="Working towards Champion">Working towards</button>
-        <button class="filter" data-filter="Interested">Interested</button>
-      </div>
-
+      <h2>Champion map</h2>
       <div id="map"></div>
     </section>
 
     <section class="section">
-      <div class="section-heading">
-        <h2>Champion directory</h2>
-        <p>These sample entries can be replaced with confirmed Enfield organisations.</p>
-      </div>
+      <h2>Champion directory</h2>
       <div id="cards" class="cards"></div>
-    </section>
-
-    <section id="join" class="join">
-      <h2>Become an Enfield Autism-Friendly Champion</h2>
-      <p>
-        Champions commit to small, practical steps that make everyday spaces more accessible:
-        clearer communication, predictable information, sensory awareness, kindness, and
-        a named person families can contact.
-      </p>
-      <ul>
-        <li>Complete a short autism-friendly reflection checklist.</li>
-        <li>Identify one or two practical changes your organisation can make.</li>
-        <li>Share contact details and a short description for the map.</li>
-        <li>Review the entry regularly so the information remains accurate.</li>
-      </ul>
-      <a class="button primary" href="mailto:your-email@example.com?subject=Enfield Autism-Friendly Champions">Register interest</a>
     </section>
   </main>
 
   <footer>
     <p>Enfield Autism-Friendly Champions · Community inclusion project</p>
-    <p class="small">Built with OpenStreetMap and Leaflet. No puzzle-piece imagery used.</p>
   </footer>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
-<script src="champions.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="champions.js"></script>
+  <script src="script.js"></script>
 </body>
-</html>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="champions.js"></script>
-<script src="script.js"></script>
+</html>pt>
