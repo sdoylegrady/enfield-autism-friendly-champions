@@ -56,7 +56,7 @@ const champions = [
     description: "Music education supporting participation and inclusion for all learners.",
     lat: 53.4140,
     lng: -6.8331,
-    image: "images/blast-academy.png"
+    image: "images/blast.png"
   },
 
   {
