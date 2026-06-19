@@ -20,6 +20,8 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors"
 }).addTo(map);
 
-L.marker([53.4142, -6.8326])
-  .addTo(map)
-  .bindPopup("Enfield Autism-Friendly Champions");
+champions.forEach((champion) => {
+  L.marker([champion.lat, champion.lng])
+    .addTo(map)
+    .bindPopup(`<strong>${champion.name}</strong><br>${champion.status}`);
+});
