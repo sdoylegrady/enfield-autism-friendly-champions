@@ -86,7 +86,7 @@ const champions = [
     description: "Community-focused financial services supporting inclusion and accessibility.",
     lat: 53.414305,
     lng: -6.832272,
-    image: "images/credit-union.png"
+    image: "images/enfield_cu.png"
   },
 
   {
