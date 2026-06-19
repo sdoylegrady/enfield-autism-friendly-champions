@@ -235,3 +235,13 @@ footer {
   position: absolute;
   z-index: 1000;
 }
+#map {
+  position: relative;
+}
+
+.leaflet-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
