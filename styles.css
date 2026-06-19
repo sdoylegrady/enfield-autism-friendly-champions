@@ -196,3 +196,13 @@ footer {
   border: 1px solid #c8dccf;
   overflow: hidden;
 }
+.champion-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 14px;
+}
+card.innerHTML = `
+  ${champion.image ? `<img class="champion-image" src="${champion.image}" alt="${champion.name}">` : ""}
+  <span class="badge">${champion.status}</span>
