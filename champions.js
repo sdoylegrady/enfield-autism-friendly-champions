@@ -3,15 +3,14 @@ const champions = [
     name: "Lady M Boutique",
     category: "Retail",
     status: "Champion",
-    address: "Main Street, Enfield, Co. Meath, A83 AV60",
+    address: "Main Street, Enfield, Co. Meath",
     supports: ["Welcoming environment", "Clear communication"],
-    description: "Local boutique supporting autism-friendly access and inclusion.",
-    lat: 53.414094,
-    lng: -6.8329,
-    website: "https://ladym.ie/",
+    description: "Local boutique supporting autism-friendly access.",
+    lat: 53.4142,
+    lng: -6.8326,
     image: "images/lady-m.png"
-}
-  },
+  }
+];
   {
     name: "Murtagh Bros",
     category: "Business",
