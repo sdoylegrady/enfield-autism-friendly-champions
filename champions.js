@@ -206,6 +206,6 @@ const champions = [
   description: "Supporting accessibility, inclusion and community participation.",
   lat: 53.4146,
   lng: -6.8321,
-  image: "images/gardai.png"
+  image: "images/garda.png"
 }
 ];
