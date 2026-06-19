@@ -4,6 +4,7 @@ champions.forEach((champion) => {
   const card = document.createElement("article");
   card.className = "card";
   card.innerHTML = `
+    ${champion.image ? `<img class="champion-image" src="${champion.image}" alt="${champion.name}">` : ""}
     <span class="badge">${champion.status}</span>
     <h3>${champion.name}</h3>
     <p><strong>${champion.category}</strong><br>${champion.address}</p>
