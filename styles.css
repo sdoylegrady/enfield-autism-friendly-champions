@@ -1,4 +1,4 @@
-* {
+  * {
   box-sizing: border-box;
 }
 
@@ -16,7 +16,8 @@ body {
   border-bottom: 1px solid #d8e9dc;
 }
 
-.hero-content, main {
+.hero-content,
+main {
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -36,38 +37,12 @@ h1 {
 
 h2 {
   font-size: clamp(1.6rem, 3vw, 2.4rem);
-  margin: 0;
+  margin: 0 0 16px;
 }
 
 .intro {
   max-width: 760px;
   font-size: 1.2rem;
-}
-
-.hero-actions {
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-  margin-top: 28px;
-}
-
-.button {
-  display: inline-block;
-  border-radius: 999px;
-  padding: 12px 20px;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.primary {
-  background: #246b5a;
-  color: white;
-}
-
-.secondary {
-  background: white;
-  color: #246b5a;
-  border: 1px solid #246b5a;
 }
 
 .notice {
@@ -80,41 +55,6 @@ h2 {
 
 .section {
   padding: 34px 0;
-}
-
-.section-heading {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  align-items: end;
-  margin-bottom: 18px;
-}
-
-.section-heading p {
-  max-width: 520px;
-  margin: 0;
-}
-
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 18px;
-}
-
-.filter {
-  border: 1px solid #bfd6c6;
-  background: white;
-  color: #19312f;
-  border-radius: 999px;
-  padding: 9px 14px;
-  cursor: pointer;
-  font-weight: 700;
-}
-
-.filter.active {
-  background: #246b5a;
-  color: white;
 }
 
 #map {
@@ -140,6 +80,14 @@ h2 {
   box-shadow: 0 10px 30px rgba(25, 49, 47, 0.06);
 }
 
+.champion-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 14px;
+}
+
 .badge {
   display: inline-block;
   font-size: 0.82rem;
@@ -159,13 +107,6 @@ h2 {
   padding-left: 20px;
 }
 
-.join {
-  margin: 36px 0 52px;
-  background: #e9f7ef;
-  border-radius: 28px;
-  padding: 32px;
-}
-
 footer {
   padding: 28px 24px;
   text-align: center;
@@ -173,51 +114,8 @@ footer {
   color: white;
 }
 
-.small {
-  opacity: 0.8;
-  font-size: 0.9rem;
-}
-
 @media (max-width: 700px) {
-  .section-heading {
-    display: block;
-  }
-
   #map {
     height: 380px;
   }
-}
-.leaflet-container {
-  width: 100%;
-  height: 100%;
-}
-
-#map {
-  height: 480px;
-  border-radius: 22px;
-  border: 1px solid #c8dccf;
-  overflow: hidden;
-}
-.champion-image {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 16px;
-  margin-bottom: 14px;
-}
-card.innerHTML = `
-  ${champion.image ? `<img class="champion-image" src="${champion.image}" alt="${champion.name}">` : ""}
-  <span class="badge">${champion.status}</span>
-.champion-image {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 12px;
-}
-#map {
-  height: 480px;
-  border-radius: 22px;
-  border: 1px solid #c8dccf;
-  overflow: hidden;
 }
