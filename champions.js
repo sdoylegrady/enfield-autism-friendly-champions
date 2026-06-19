@@ -9,6 +9,7 @@ const champions = [
     lat: 53.414094,
     lng: -6.8329,
     website: "https://ladym.ie/"
+    image: "images/lady-m.jpg"
   },
   {
     name: "Murtagh Bros",
@@ -20,6 +21,7 @@ const champions = [
     lat: 53.41435,
     lng: -6.8325,
     website: "https://murtaghbros.ie/"
+    image: "images/murtagh-bros.jpg"
   },
   {
     name: "Blast Music Academy",
@@ -42,6 +44,7 @@ const champions = [
     lat: 53.4142,
     lng: -6.8326,
     website: ""
+    image: "images/nomad.jpg"
   },
   {
     name: "Hannon's SuperValu Enfield",
@@ -52,7 +55,8 @@ const champions = [
     description: "Local supermarket supporting autism-friendly and inclusive shopping experiences.",
     lat: 53.41421,
     lng: -6.82766,
-    website: ""
+    website: "supervalu.ie"
+    image: "images/supervalu.jpg"
   },
   {
     name: "Lidl Enfield",
