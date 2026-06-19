@@ -131,7 +131,7 @@ const champions = [
     description: "Supporting inclusive participation in Gaelic games and community life.",
     lat: 53.4105,
     lng: -6.8218,
-    image: "images/na-fianna.png"
+    image: "images/nafianna.png"
   },
 
   {
@@ -146,6 +146,6 @@ const champions = [
     description: "Local football club supporting inclusive participation.",
     lat: 53.4132,
     lng: -6.8249,
-    image: "images/enfield-celtic.png"
+    image: "images/enfieldceltic.png"
   }
 ];
